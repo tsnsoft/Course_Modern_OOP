@@ -1,0 +1,14 @@
+@startuml
+abstract class tsn_java_oop_teacher.AProgrammer
+class tsn_java_oop_teacher.Human
+class tsn_java_oop_teacher.JavaProgrammer
+class tsn_java_oop_teacher.Launch
+class tsn_java_oop_teacher.Teacher
+interface tsn_java_oop_teacher.IProgrammer
+interface tsn_java_oop_teacher.ITeach
+tsn_java_oop_teacher.AProgrammer --|> tsn_java_oop_teacher.Human
+tsn_java_oop_teacher.AProgrammer --|> tsn_java_oop_teacher.IProgrammer
+tsn_java_oop_teacher.JavaProgrammer --|> tsn_java_oop_teacher.AProgrammer
+tsn_java_oop_teacher.Teacher --|> tsn_java_oop_teacher.Human
+tsn_java_oop_teacher.Teacher --|> tsn_java_oop_teacher.ITeach
+@enduml

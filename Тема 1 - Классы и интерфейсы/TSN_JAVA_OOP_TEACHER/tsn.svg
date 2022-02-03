@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="328px" preserveAspectRatio="none" style="width:397px;height:328px;" version="1.1" viewBox="0 0 397 328" width="397px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fhvat56pbaai6" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[ebc41f169d3ce3897f12c3938552fbd4]
+cluster tsn_java_oop_teacher-->
+        <polygon fill="#FFFFFF" filter="url(#fhvat56pbaai6)" points="16,6,190,6,197,28.2969,380,28.2969,380,321,16,321,16,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="197" y1="28.2969" y2="28.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="20" y="20.9951">tsn_java_oop_teacher</text>
+        <!--MD5=[100195452aa4fc30c3a810072d12a5a5]
+class tsn_java_oop_teacher.AProgrammer-->
+        <rect codeLine="1" fill="#FEFECE" filter="url(#fhvat56pbaai6)" height="48" id="tsn_java_oop_teacher.AProgrammer" style="stroke:#A80036;stroke-width:1.5;" width="116" x="217" y="149"/>
+        <ellipse cx="232" cy="165" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M232.1094,160.3438 L230.9531,165.4219 L233.2813,165.4219 L232.1094,160.3438 Z M230.625,158.1094 L233.6094,158.1094 L236.9688,170.5 L234.5156,170.5 L233.75,167.4375 L230.4688,167.4375 L229.7188,170.5 L227.2813,170.5 L230.625,158.1094 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="246" y="169.1543">AProgrammer</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="218" x2="332" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="218" x2="332" y1="189" y2="189"/>
+        <!--MD5=[3e2d8cb3120d128d16014237ce1c6188]
+class tsn_java_oop_teacher.Human-->
+        <rect codeLine="2" fill="#FEFECE" filter="url(#fhvat56pbaai6)" height="48" id="tsn_java_oop_teacher.Human" style="stroke:#A80036;stroke-width:1.5;" width="76" x="141" y="257"/>
+        <ellipse cx="156" cy="273" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M158.9688,278.6406 Q158.3906,278.9375 157.75,279.0781 Q157.1094,279.2344 156.4063,279.2344 Q153.9063,279.2344 152.5781,277.5938 Q151.2656,275.9375 151.2656,272.8125 Q151.2656,269.6875 152.5781,268.0313 Q153.9063,266.375 156.4063,266.375 Q157.1094,266.375 157.75,266.5313 Q158.4063,266.6875 158.9688,266.9844 L158.9688,269.7031 Q158.3438,269.125 157.75,268.8594 Q157.1563,268.5781 156.5313,268.5781 Q155.1875,268.5781 154.5,269.6563 Q153.8125,270.7188 153.8125,272.8125 Q153.8125,274.9063 154.5,275.9844 Q155.1875,277.0469 156.5313,277.0469 Q157.1563,277.0469 157.75,276.7813 Q158.3438,276.5 158.9688,275.9219 L158.9688,278.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="170" y="277.1543">Human</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="142" x2="216" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="142" x2="216" y1="297" y2="297"/>
+        <!--MD5=[e85bb5e85d0f3f42c12b5856e87c1f91]
+class tsn_java_oop_teacher.JavaProgrammer-->
+        <rect codeLine="3" fill="#FEFECE" filter="url(#fhvat56pbaai6)" height="48" id="tsn_java_oop_teacher.JavaProgrammer" style="stroke:#A80036;stroke-width:1.5;" width="134" x="208" y="41"/>
+        <ellipse cx="223" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M225.9688,62.6406 Q225.3906,62.9375 224.75,63.0781 Q224.1094,63.2344 223.4063,63.2344 Q220.9063,63.2344 219.5781,61.5938 Q218.2656,59.9375 218.2656,56.8125 Q218.2656,53.6875 219.5781,52.0313 Q220.9063,50.375 223.4063,50.375 Q224.1094,50.375 224.75,50.5313 Q225.4063,50.6875 225.9688,50.9844 L225.9688,53.7031 Q225.3438,53.125 224.75,52.8594 Q224.1563,52.5781 223.5313,52.5781 Q222.1875,52.5781 221.5,53.6563 Q220.8125,54.7188 220.8125,56.8125 Q220.8125,58.9063 221.5,59.9844 Q222.1875,61.0469 223.5313,61.0469 Q224.1563,61.0469 224.75,60.7813 Q225.3438,60.5 225.9688,59.9219 L225.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="237" y="61.1543">JavaProgrammer</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="209" x2="341" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="209" x2="341" y1="81" y2="81"/>
+        <!--MD5=[fdbf1fefecb3cdbe304fc392414a22e4]
+class tsn_java_oop_teacher.Launch-->
+        <rect codeLine="4" fill="#FEFECE" filter="url(#fhvat56pbaai6)" height="48" id="tsn_java_oop_teacher.Launch" style="stroke:#A80036;stroke-width:1.5;" width="77" x="74.5" y="41"/>
+        <ellipse cx="89.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M92.4688,62.6406 Q91.8906,62.9375 91.25,63.0781 Q90.6094,63.2344 89.9063,63.2344 Q87.4063,63.2344 86.0781,61.5938 Q84.7656,59.9375 84.7656,56.8125 Q84.7656,53.6875 86.0781,52.0313 Q87.4063,50.375 89.9063,50.375 Q90.6094,50.375 91.25,50.5313 Q91.9063,50.6875 92.4688,50.9844 L92.4688,53.7031 Q91.8438,53.125 91.25,52.8594 Q90.6563,52.5781 90.0313,52.5781 Q88.6875,52.5781 88,53.6563 Q87.3125,54.7188 87.3125,56.8125 Q87.3125,58.9063 88,59.9844 Q88.6875,61.0469 90.0313,61.0469 Q90.6563,61.0469 91.25,60.7813 Q91.8438,60.5 92.4688,59.9219 L92.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="103.5" y="61.1543">Launch</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="75.5" x2="150.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="75.5" x2="150.5" y1="81" y2="81"/>
+        <!--MD5=[b654569b33548c06ce549a27ee4e578f]
+class tsn_java_oop_teacher.Teacher-->
+        <rect codeLine="5" fill="#FEFECE" filter="url(#fhvat56pbaai6)" height="48" id="tsn_java_oop_teacher.Teacher" style="stroke:#A80036;stroke-width:1.5;" width="83" x="65.5" y="149"/>
+        <ellipse cx="80.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M83.4688,170.6406 Q82.8906,170.9375 82.25,171.0781 Q81.6094,171.2344 80.9063,171.2344 Q78.4063,171.2344 77.0781,169.5938 Q75.7656,167.9375 75.7656,164.8125 Q75.7656,161.6875 77.0781,160.0313 Q78.4063,158.375 80.9063,158.375 Q81.6094,158.375 82.25,158.5313 Q82.9063,158.6875 83.4688,158.9844 L83.4688,161.7031 Q82.8438,161.125 82.25,160.8594 Q81.6563,160.5781 81.0313,160.5781 Q79.6875,160.5781 79,161.6563 Q78.3125,162.7188 78.3125,164.8125 Q78.3125,166.9063 79,167.9844 Q79.6875,169.0469 81.0313,169.0469 Q81.6563,169.0469 82.25,168.7813 Q82.8438,168.5 83.4688,167.9219 L83.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="94.5" y="169.1543">Teacher</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="66.5" x2="147.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="66.5" x2="147.5" y1="189" y2="189"/>
+        <!--MD5=[1a14f843ab852b1f7adeb69fcf547921]
+class tsn_java_oop_teacher.IProgrammer-->
+        <rect codeLine="6" fill="#FEFECE" filter="url(#fhvat56pbaai6)" height="48" id="tsn_java_oop_teacher.IProgrammer" style="stroke:#A80036;stroke-width:1.5;" width="112" x="252" y="257"/>
+        <ellipse cx="267" cy="273" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M262.9219,268.7656 L262.9219,266.6094 L270.3125,266.6094 L270.3125,268.7656 L267.8438,268.7656 L267.8438,276.8438 L270.3125,276.8438 L270.3125,279 L262.9219,279 L262.9219,276.8438 L265.3906,276.8438 L265.3906,268.7656 L262.9219,268.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="281" y="277.1543">IProgrammer</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="253" x2="363" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="253" x2="363" y1="297" y2="297"/>
+        <!--MD5=[ce41208f66a60b6298997c60bc034ea2]
+class tsn_java_oop_teacher.ITeach-->
+        <rect codeLine="7" fill="#FEFECE" filter="url(#fhvat56pbaai6)" height="48" id="tsn_java_oop_teacher.ITeach" style="stroke:#A80036;stroke-width:1.5;" width="74" x="32" y="257"/>
+        <ellipse cx="47" cy="273" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M42.9219,268.7656 L42.9219,266.6094 L50.3125,266.6094 L50.3125,268.7656 L47.8438,268.7656 L47.8438,276.8438 L50.3125,276.8438 L50.3125,279 L42.9219,279 L42.9219,276.8438 L45.3906,276.8438 L45.3906,268.7656 L42.9219,268.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="61" y="277.1543">ITeach</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="105" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="105" y1="297" y2="297"/>
+        <!--MD5=[2e07ae0c2f031ab6b47ccce32a7dd6f7]
+link tsn_java_oop_teacher.AProgrammer to tsn_java_oop_teacher.Human-->
+        <path codeLine="8" d="M254.17,197 C242.43,209.97 227.45,226.51 213.95,241.41 " fill="none" id="tsn_java_oop_teacher.AProgrammer-to-tsn_java_oop_teacher.Human" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="218.74,246.55,200.12,256.68,208.36,237.16,218.74,246.55" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f6a940c1262a7be502f22294f1d44e8e]
+link tsn_java_oop_teacher.AProgrammer to tsn_java_oop_teacher.IProgrammer-->
+        <path codeLine="9" d="M282.16,197 C285.85,208.86 290.48,223.72 294.79,237.57 " fill="none" id="tsn_java_oop_teacher.AProgrammer-to-tsn_java_oop_teacher.IProgrammer" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="301.48,235.5,300.74,256.68,288.11,239.66,301.48,235.5" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ffd11e58b87a1cdd43b9862a0976b5e9]
+link tsn_java_oop_teacher.JavaProgrammer to tsn_java_oop_teacher.AProgrammer-->
+        <path codeLine="10" d="M275,89 C275,100.59 275,115.03 275,128.6 " fill="none" id="tsn_java_oop_teacher.JavaProgrammer-to-tsn_java_oop_teacher.AProgrammer" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="282,128.68,275,148.68,268,128.68,282,128.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[1c0e0389b430108ebf8691f7c8722027]
+link tsn_java_oop_teacher.Teacher to tsn_java_oop_teacher.Human-->
+        <path codeLine="11" d="M122.62,197 C131.15,209.55 141.95,225.46 151.81,239.97 " fill="none" id="tsn_java_oop_teacher.Teacher-to-tsn_java_oop_teacher.Human" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="157.71,236.2,163.16,256.68,146.13,244.07,157.71,236.2" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6ddb982628e944159ec1671d2214b8a7]
+link tsn_java_oop_teacher.Teacher to tsn_java_oop_teacher.ITeach-->
+        <path codeLine="12" d="M98.75,197 C94.5,208.86 89.18,223.72 84.21,237.57 " fill="none" id="tsn_java_oop_teacher.Teacher-to-tsn_java_oop_teacher.ITeach" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="90.7,240.21,77.36,256.68,77.52,235.49,90.7,240.21" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[cb0544428f1c8c1af59cc687034e561a]
+@startuml
+abstract class tsn_java_oop_teacher.AProgrammer
+class tsn_java_oop_teacher.Human
+class tsn_java_oop_teacher.JavaProgrammer
+class tsn_java_oop_teacher.Launch
+class tsn_java_oop_teacher.Teacher
+interface tsn_java_oop_teacher.IProgrammer
+interface tsn_java_oop_teacher.ITeach
+tsn_java_oop_teacher.AProgrammer - -|> tsn_java_oop_teacher.Human
+tsn_java_oop_teacher.AProgrammer - -|> tsn_java_oop_teacher.IProgrammer
+tsn_java_oop_teacher.JavaProgrammer - -|> tsn_java_oop_teacher.AProgrammer
+tsn_java_oop_teacher.Teacher - -|> tsn_java_oop_teacher.Human
+tsn_java_oop_teacher.Teacher - -|> tsn_java_oop_teacher.ITeach
+@enduml
+
+PlantUML version 1.2021.3(Mon Mar 22 22:53:19 ALMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+-->
+    </g>
+</svg>
