@@ -1,4 +1,4 @@
-package tsn.oop.queq_collection;
+package tsn_java_oop_queq;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 // Класс коллекции-списка квадратных уравнеий с их решениями
 public class ListSolverQuEq {
 
-    private List<SolverQuEq> listSolverQuEq; // Список объектов квадратных уравнений
+    private final List<SolverQuEq> listSolverQuEq; // Список объектов квадратных уравнений
 
     // Секция инициализации класса
     {

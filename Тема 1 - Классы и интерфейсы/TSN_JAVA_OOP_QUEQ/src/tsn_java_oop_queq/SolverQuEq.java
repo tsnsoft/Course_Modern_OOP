@@ -1,4 +1,4 @@
-package tsn.oop.queq_collection;
+package tsn_java_oop_queq;
 
 // Класс "Решатель квадратного уравнения"
 public class SolverQuEq {
