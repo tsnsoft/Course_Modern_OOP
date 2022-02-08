@@ -1,10 +1,10 @@
-package tsn.oop.queq_collection;
+package tsn_java_oop_queq;
 
 // Класс "Ответ квадратного уравнения"
 public class AnswerQuEq {
 
-    private double x1; // Скрытое вещественное поле x1
-    private double x2; // Скрытое вещественное поле x2
+    private final double x1; // Скрытое вещественное поле x1
+    private final double x2; // Скрытое вещественное поле x2
 
     // Конструктор с 2-мя параметрами
     public AnswerQuEq(double x1, double x2) {
