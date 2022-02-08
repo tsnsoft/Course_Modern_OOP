@@ -1,7 +1,7 @@
 package tsn_java_oop_queq;
 
 // Класс "Решатель квадратного уравнения"
-public class SolverQuEq {
+public class SolverQuEq implements ISolverQuEq {
     private double a, b, c; // Входные данные
     private AnswerQuEq answerQuEq; // Ответы x1 и x2
 

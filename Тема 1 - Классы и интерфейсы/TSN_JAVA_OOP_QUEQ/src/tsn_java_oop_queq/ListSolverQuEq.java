@@ -6,7 +6,8 @@ import java.util.List;
 // Класс коллекции-списка квадратных уравнеий с их решениями
 public class ListSolverQuEq {
 
-    private final List<SolverQuEq> listSolverQuEq; // Список объектов квадратных уравнений
+    private final List<ISolverQuEq> listSolverQuEq; // Список объектов квадратных уравнений
+    //private final List<SolverQuEq> listSolverQuEq; // Список объектов квадратных уравнений
 
     // Секция инициализации класса
     {
