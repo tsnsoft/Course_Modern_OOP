@@ -25,8 +25,7 @@ public class AnswerQuEq {
     // Переопределение метода для распечатки объекта
     @Override
     public String toString() {
-           return String.format("x1=%.3f   x2= %.3f", getX1(), getX2());
+        return String.format("x1=%.3f   x2= %.3f", getX1(), getX2());
     }
 
-    
 }

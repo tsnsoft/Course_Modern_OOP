@@ -10,7 +10,7 @@ public class SolverQuEq implements ISolverQuEq {
         answerQuEq = null;
     }
 
-    // Конструктор класса с тремя входными параметрами
+    // Конструктор класса с тремя входными параметрами и нахождением корней
     public SolverQuEq(double a, double b, double c) {
         this.a = a;
         this.b = b;
@@ -41,15 +41,17 @@ public class SolverQuEq implements ISolverQuEq {
         return c;
     }
 
+    // Реализация метода интерфейса
+    @Override
     public AnswerQuEq getSolutionQuEq() {
         return answerQuEq;
     }
 
     @Override
     public String toString() {
-        String s = "Решенние для " + "a=" + a + ", b=" + b + ", c=" + c +":\t";
+        String s = "Решенние для " + "a=" + a + ", b=" + b + ", c=" + c + ":\t";
         if (answerQuEq != null) {
-            return s + answerQuEq+"\n";
+            return s + answerQuEq + "\n";
         } else {
             return s + "не существует\n";
         }

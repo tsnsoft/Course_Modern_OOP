@@ -11,7 +11,10 @@ package tsn_java_oop_teacher; // Имя нашего пакета
  */
 public abstract class AProgrammer extends Human implements IProgrammer {
 
-    private double salary; // Поле "Зарплата"
+    /**
+     * Поле "Зарплата"
+     */
+    private double salary;
 
     /**
      * Это конструктор по-умолчанию. Его нужно обязательно делать, если делаем
