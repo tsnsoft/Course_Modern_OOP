@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"tsn_java_oop_teacher","l":"AProgrammer"},{"p":"tsn_java_oop_teacher","l":"Human"},{"p":"tsn_java_oop_teacher","l":"IProgrammer"},{"p":"tsn_java_oop_teacher","l":"ITeach"},{"p":"tsn_java_oop_teacher","l":"JavaProgrammer"},{"p":"tsn_java_oop_teacher","l":"Launch"},{"p":"tsn_java_oop_teacher","l":"Teacher"}]
