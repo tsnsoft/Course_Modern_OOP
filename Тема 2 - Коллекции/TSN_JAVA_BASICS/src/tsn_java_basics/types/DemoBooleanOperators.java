@@ -1,4 +1,4 @@
-package tsn_java_basics;
+package tsn_java_basics.types;
 
 public class DemoBooleanOperators {
 
@@ -10,9 +10,7 @@ public class DemoBooleanOperators {
         System.out.format("%B\n", i);
     }
 
-    ;
-
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         print(false);
         print(true);
         print(A);

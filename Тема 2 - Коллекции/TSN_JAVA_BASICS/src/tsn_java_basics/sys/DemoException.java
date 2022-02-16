@@ -1,4 +1,4 @@
-package tsn_java_basics;
+package tsn_java_basics.sys;
 
 import java.util.Scanner;
 
@@ -15,8 +15,7 @@ public class DemoException {
     }
 
     public static void main(String[] args) throws Exception {
-        int[] m = {-1, 0, 1};
-        int a = 1;
+        int[] m = {-1, 0, 1}; int a;
         Scanner sc = new Scanner(System.in);
         try {
             System.out.format("Введите любое число от 0 до 5 или букву для ошибки: ");

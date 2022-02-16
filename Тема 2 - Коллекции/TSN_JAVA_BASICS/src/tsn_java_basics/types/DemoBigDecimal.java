@@ -1,4 +1,4 @@
-package tsn_java_basics;
+package tsn_java_basics.types;
 
 import java.math.*;
 

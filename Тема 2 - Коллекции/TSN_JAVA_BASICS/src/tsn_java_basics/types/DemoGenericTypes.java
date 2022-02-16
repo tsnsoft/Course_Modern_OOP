@@ -1,4 +1,4 @@
-package tsn_java_basics;
+package tsn_java_basics.types;
 
 /**
  * ОБОБЩЕННЫЕ ТИПЫ ДАННЫХ
@@ -8,11 +8,11 @@ public class DemoGenericTypes {
 
     class MySqr<N extends Number> {
 
+        private N result;
+
         MySqr(N t) {
             perform(t, "sqr");
         }
-
-        private N result;
 
         private <S> N perform(N num, S str) {
             @SuppressWarnings("unchecked")
@@ -35,10 +35,10 @@ public class DemoGenericTypes {
     }
 
     public DemoGenericTypes() {
-        System.out.println(new MySqr<Integer>(3).getResult());
-        System.out.println(new MySqr<Double>(3.5).getResult());
+        System.out.println(new MySqr<>(3).getResult());
+        System.out.println(new MySqr<>(3.5).getResult());
         System.out.println(new MySqr<Double>(12.15));
-        System.out.println(new MySqr<Integer>(0b11001));
+        System.out.println(new MySqr<>(0b11001));
         System.out.println(new MySqr<Integer>(12_22));
     }
 

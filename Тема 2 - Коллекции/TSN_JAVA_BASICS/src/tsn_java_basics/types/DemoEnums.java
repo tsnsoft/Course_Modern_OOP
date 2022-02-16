@@ -1,4 +1,4 @@
-package tsn_java_basics;
+package tsn_java_basics.types;
 
 /**
  * ПЕРЕЧИСЛЕНИЯ
@@ -13,8 +13,8 @@ public class DemoEnums {
     enum EGender {
         MALE(0, 'M'), FEMALE(1, 'F'); // Класс-перечисление с инициализацией
 
-        private Integer intValue; // Целое значение для значения перечисления
-        private char charValue; // Символьное значение для значения перечисления
+        private final Integer intValue; // Целое значение для значения перечисления
+        private final char charValue; // Символьное значение для значения перечисления
 
         EGender(Integer intValue, char charValue) { // Конструктор класса
             this.intValue = intValue;

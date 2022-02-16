@@ -1,4 +1,4 @@
-package tsn_java_basics;
+package tsn_java_basics.sys;
 
 /**
  * АРГУМЕНТЫ С ПЕРЕМЕННЫМ КОЛИЧЕСТВОМ ПАРАМЕТРОВ
@@ -7,9 +7,7 @@ package tsn_java_basics;
 class MultiVars {
 
     void getVars(int... args) { // Аргумент: переменное количество целых чисел
-
         System.out.println("Количество значений: " + args.length);
-
         for (int el : args) { // Перебор значений аргумента
             System.out.println(el);
         }
