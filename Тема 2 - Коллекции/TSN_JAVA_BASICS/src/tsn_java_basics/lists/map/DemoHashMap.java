@@ -19,7 +19,7 @@ public class DemoHashMap {
         hashMap.put("3333333333333", "Ivanov2");
         hashMap.put("1111111111111", "Petrov");
         hashMap.put("2", "Petroqweqwev");
-        hashMap.put("3333333333333", "Ivanov3");
+        hashMap.put("3333333333333!", "Ivanov3");
 
         if (hashMap.containsKey("3333333333333!")) {
             System.out.println("Yes!");
@@ -33,7 +33,7 @@ public class DemoHashMap {
                 entry.setValue("xx");
             }
         }
-        
+
         for (Entry<String, String> entry : hashMap.entrySet()) { // Печать карты на экран
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }

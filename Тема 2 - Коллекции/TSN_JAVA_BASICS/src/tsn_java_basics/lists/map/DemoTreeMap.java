@@ -38,7 +38,7 @@ public class DemoTreeMap {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 
-        Map<Points, Points> objMap = new TreeMap<Points, Points>(); // С сортировкой по компаратору с авто позициями
+        TreeMap<Points, Points> objMap = new TreeMap<>(); // С сортировкой по компаратору с авто позициями
 
         Points points1 = new Points(1, 2);
         Points points2 = new Points(3, 4);

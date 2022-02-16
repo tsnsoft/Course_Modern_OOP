@@ -69,8 +69,6 @@ public class DemoEnums {
                     throw new EnumConstantNotPresentException(this.getDeclaringClass(), this.name());
             }
         }
-    ;
-
     }
 
 	public DemoEnums() {
@@ -119,6 +117,5 @@ public class DemoEnums {
             System.out.println(item.name());
         }
         System.out.println("values length: " + EGender.values().length);
-
     }
 }

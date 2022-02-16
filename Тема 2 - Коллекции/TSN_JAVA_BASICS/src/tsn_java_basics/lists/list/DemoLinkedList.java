@@ -27,6 +27,7 @@ public class DemoLinkedList {
         System.out.println(listStr);
 
         System.out.println("min: " + Collections.min(listStr)); // Минимальное значение в списке
+        System.out.println("max: " + Collections.max(listStr)); // Минимальное значение в списке
 
         Collections.sort(listStr); // Сортировка списка
         System.out.println(listStr);

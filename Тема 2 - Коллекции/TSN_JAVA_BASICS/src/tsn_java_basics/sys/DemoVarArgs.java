@@ -18,8 +18,6 @@ class MultiVars {
         }
     }
 
-    ;
-
     void getVarsArrays(int[]... args) { // Аргумент: переменное количество массивов
         System.out.format("\nКоличество массивов: %d \n", args.length);
         for (int n = 0; n < args.length; n++) { // Перебор значений аргумента 
@@ -29,7 +27,6 @@ class MultiVars {
             }
         }
     }
-;
 
 };
 

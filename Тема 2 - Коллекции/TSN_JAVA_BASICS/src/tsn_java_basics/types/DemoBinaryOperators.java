@@ -10,9 +10,7 @@ public class DemoBinaryOperators {
         System.out.format("%s\n", Integer.toBinaryString(i));
     }
 
-    ;
-
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         print(A);
         print(~A); // побитовое унарное отрицание (NOT)
         print(A << 2); // сдвиг влево

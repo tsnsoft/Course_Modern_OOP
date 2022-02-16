@@ -24,7 +24,7 @@ public class DemoQueue {
             return 0;
         }; // Сравниватель объектов (компаратор)
 
-//		Queue<Integer> intQueue = new PriorityQueue<>(10, comparator); // Приоритетная очередь с осортировкой по компоратору
+//        Queue<Integer> intQueue = new PriorityQueue<>(10, comparator); // Приоритетная очередь с осортировкой по компоратору
         Queue<Integer> intQueue = new PriorityQueue<>(10, null); // Приоритетная очередь с автосортировкой по возрастанию
 
         intQueue.add(4);
@@ -57,7 +57,7 @@ public class DemoQueue {
         Integer[] intArray = new Integer[intQueue.size()]; // Массив для работы с очередью
         intQueue.toArray(intArray); // Копирование элементов очереди в массив без упорядочивания
         Arrays.sort(intArray, comparator); // Сортировка массива компоратором
-//		 Arrays.sort(intArray, null); // Сортировка массива по возрастанию
+//          Arrays.sort(intArray, null); // Сортировка массива по возрастанию
 
         System.out.println();
         for (int entry : intArray) {

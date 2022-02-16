@@ -15,7 +15,7 @@ public class DemoArrayList {
     public DemoArrayList() {
 
         // Медленное добавление, но быстрый доступ к элементам по индексу 
-        List<Integer> listInt = new ArrayList<>(Arrays.asList(1, -1, -11, 77, 2, 5, 4));  // 
+        List<Integer> listInt = new ArrayList<>(Arrays.asList(1, -1, -11, 77, 2, 5, 4));
 
         System.out.println(listInt);
 
@@ -29,8 +29,8 @@ public class DemoArrayList {
 
         System.out.println(listInt);
 
-        System.out.println("get 3 element: " + listInt.get(3)); // Получение значения элемента списка (с 0)
         System.out.println("min: " + Collections.min(listInt)); // Минимальное значение в списке
+        System.out.println("max: " + Collections.max(listInt)); // Максимальное значение в списке
 
         mySorter(listInt);
         myPrint(listInt);
@@ -38,7 +38,7 @@ public class DemoArrayList {
 
     }
 
-    <T extends Comparable<T>> void mySorter(List<T> list) { // Метод с обобщенным типом
+    void mySorter(List list) { // Метод с обобщенным типом
         Collections.sort(list); // Сортировка списка
         Collections.reverse(list); // Перестановка элементов списка наоборот
     }
