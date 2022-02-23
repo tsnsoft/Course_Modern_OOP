@@ -1,0 +1,25 @@
+@startuml
+abstract class TSN_JAVA_OOP_MINI.ATelephone
+annotation java.lang.Override
+class TSN_JAVA_OOP_MINI.BrickTel
+class TSN_JAVA_OOP_MINI.Launch
+class TSN_JAVA_OOP_MINI.NormTel
+class TSN_JAVA_OOP_MINI.SuperTel
+class java.util.ArrayList
+class java.util.LinkedList
+class java.util.List
+class java.util.Vector
+interface TSN_JAVA_OOP_MINI.ITelephone
+TSN_JAVA_OOP_MINI.ATelephone ..> java.lang.Override
+TSN_JAVA_OOP_MINI.ATelephone --|> TSN_JAVA_OOP_MINI.ITelephone
+TSN_JAVA_OOP_MINI.BrickTel --|> TSN_JAVA_OOP_MINI.ATelephone
+TSN_JAVA_OOP_MINI.BrickTel ..> java.lang.Override
+TSN_JAVA_OOP_MINI.Launch ..> java.util.ArrayList
+TSN_JAVA_OOP_MINI.Launch ..> java.util.LinkedList
+TSN_JAVA_OOP_MINI.Launch ..> java.util.List
+TSN_JAVA_OOP_MINI.Launch ..> java.util.Vector
+TSN_JAVA_OOP_MINI.NormTel --|> TSN_JAVA_OOP_MINI.ATelephone
+TSN_JAVA_OOP_MINI.NormTel ..> java.lang.Override
+TSN_JAVA_OOP_MINI.SuperTel --|> TSN_JAVA_OOP_MINI.ATelephone
+TSN_JAVA_OOP_MINI.SuperTel ..> java.lang.Override
+@enduml
