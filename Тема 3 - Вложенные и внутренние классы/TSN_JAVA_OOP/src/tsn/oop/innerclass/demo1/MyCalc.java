@@ -1,21 +1,23 @@
-
 package tsn.oop.innerclass.demo1;
 
 public class MyCalc {
 
+    // Вложенный внутренний класс, используется его внешним классом
     private class Answer {
+
         private final double sumX1X2;
         private final double multX1X2;
+
         public Answer(double sumX1X2, double multX1X2) {
             this.sumX1X2 = sumX1X2;
             this.multX1X2 = multX1X2;
         }
     }
-    
+
     private final double x1;
     private final double x2;
     private final Answer answer;
-    
+
     public MyCalc(double x1, double x2) {
         this.x1 = x1;
         this.x2 = x2;
@@ -40,8 +42,8 @@ public class MyCalc {
 
     @Override
     public String toString() {
-        return "Вот расчет для " + "x1=" + x1 + " и x2=" + x2 + ": сумма=" + 
-                answer.sumX1X2 + ", а произведение=" + answer.multX1X2;
+        return "Вот расчет для " + "x1=" + x1 + " и x2=" + x2 + ": сумма="
+                + answer.sumX1X2 + ", а произведение=" + answer.multX1X2;
     }
 
 }
