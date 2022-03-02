@@ -1,6 +1,7 @@
 package tsn.oop.innerclass.demo2;
 
 import java.util.Scanner;
+import tsn.oop.innerclass.demo2.SolverQuEq.AnswerQuEq;
 
 public class Launch {
 
@@ -31,6 +32,10 @@ public class Launch {
         } catch (Exception e) {
         }
 
+        SolverQuEq sqe = new SolverQuEq(); 
+        AnswerQuEq aq = sqe.new AnswerQuEq(1,2);
+        System.out.println(aq);
+        
     }
 
 }
