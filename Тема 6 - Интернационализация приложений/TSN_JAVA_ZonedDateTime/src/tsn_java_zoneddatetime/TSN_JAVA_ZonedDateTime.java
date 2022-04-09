@@ -28,26 +28,26 @@ public class TSN_JAVA_ZonedDateTime {
         ZoneId europeBerlin = ZoneId.of("Europe/Berlin");
 
         System.out.println("Сколько сейчас времени и какая дата в разных местах:");
-        System.out.println(formatZDT(nowUtc, utc, false));
-        System.out.println(formatZDT(nowUtc, europeMoscow, false));
-        System.out.println(formatZDT(nowUtc, asiaAlmaty, false));
-        System.out.println(formatZDT(nowUtc, asiaAlmaty2, false));
-        System.out.println(formatZDT(nowUtc, europeBerlin, false));
+        System.out.println(formatZDT(nowUtc, utc, true));
+        System.out.println(formatZDT(nowUtc, europeMoscow, true));
+        System.out.println(formatZDT(nowUtc, asiaAlmaty, true));
+        System.out.println(formatZDT(nowUtc, asiaAlmaty2, true));
+        System.out.println(formatZDT(nowUtc, europeBerlin, true));
         System.out.println();
 
         System.out.println("Когда и восколько меня всем поздравить на ДР по их местному времни:");
         Instant zdt_tsn = ZonedDateTime.of(2022, 6, 1, 0, 0, 0, 0,
                 ZoneId.of("Asia/Almaty")).toInstant();
-        System.out.println("Дельфины: " + formatZDT(zdt_tsn, utc, true));
-        System.out.println("Брат: " + formatZDT(zdt_tsn, europeMoscow, true));
-        System.out.println("Свои: " + formatZDT(zdt_tsn, asiaAlmaty, true));
-        System.out.println("Сестра: " + formatZDT(zdt_tsn, europeBerlin, true));
+        System.out.println("Дельфины: " + formatZDT(zdt_tsn, utc, false));
+        System.out.println("Брат: " + formatZDT(zdt_tsn, europeMoscow, false));
+        System.out.println("Свои: " + formatZDT(zdt_tsn, asiaAlmaty, false));
+        System.out.println("Сестра: " + formatZDT(zdt_tsn, europeBerlin, false));
     }
 
     // Метод получения текстового представления ДатыВремя для нужной временной зоны
     static String formatZDT(Instant i, ZoneId z, boolean fullInfo) {
         DateTimeFormatter f;
-        if (fullInfo) {
+        if (!fullInfo) {
             f = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
         } else {
             f = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL);
