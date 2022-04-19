@@ -9,6 +9,10 @@ class SomeThing implements Runnable {
     @Override
     public void run() {
         System.out.println("Привет из побочного потока!");
+        initData();
+    }
+
+    static synchronized void initData() {
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
                 System.out.print(m[i][j] + " ");
@@ -29,12 +33,16 @@ public class TSN_JAVA_THREADS_mini2 {
     public static void main(String[] args) {
         sth = new SomeThing();
         Thread t = new Thread(sth);
+        printData();
+        t.start();
+        System.out.println("Главный поток завершён...");
+    }
+
+    static synchronized void printData() {
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
                 m[i][j] = (int) Math.round(Math.random() * 9);
             }
         }
-        t.start();
-        System.out.println("Главный поток завершён...");
     }
 }
