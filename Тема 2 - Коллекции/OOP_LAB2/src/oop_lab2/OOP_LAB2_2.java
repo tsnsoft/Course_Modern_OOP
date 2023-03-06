@@ -17,7 +17,7 @@ public class OOP_LAB2_2 {
         Set set = new HashSet();
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("number (1..5): ");
+        System.out.print("number (2..5): ");
         int n = sc.nextInt();
         sc.nextLine();
         System.out.println();
