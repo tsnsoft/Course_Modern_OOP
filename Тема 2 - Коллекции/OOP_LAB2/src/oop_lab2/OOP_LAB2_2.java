@@ -22,7 +22,7 @@ public class OOP_LAB2_2 {
         sc.nextLine();
         System.out.println();
 
-        Person4 person = null;
+        Person4 person0 = null;
         for (int i = 0; i < n; i++) {
             System.out.println("* " + (i + 1) + ":");
             System.out.print("fio: ");
@@ -32,24 +32,25 @@ public class OOP_LAB2_2 {
             sc.nextLine();
             System.out.print("inn: ");
             String inn = sc.nextLine();
-            person = new Person4(fio, year, inn);
-            list.add(person);
-            map.put(i, person);
-            set.add(person);
+            list.add(new Person4(fio, year, inn));
+            map.put(i, new Person4(fio, year, inn));
+            Person4 person = new Person4(fio, year, inn);
+            if (person0 == null) { person0 = person; }
+            set.add(person); set.add(person); set.add(person);
         }
 
         System.out.println();
 
         list.remove(0);
         map.remove(0);
-        set.remove(person);
+        set.remove(person0);
 
-        list.get(0).setFio("*" + list.get(0).getFio());
-        map.get(1).setFio("*" + list.get(0).getFio());
+        list.get(0).setFio("*");
+        map.get(1).setFio("*");
 
         System.out.println("List:");
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
+        for (Person4 p : list) {
+            System.out.println(p);
         }
         System.out.println();
 

@@ -26,6 +26,7 @@ public class OOP_LAB2_1 {
         map.put(3, bob); map.put(2, anna); map.put(1, john); 
         
         set.add(bob); set.add(anna); set.add(john);
+        set.add(bob); set.add(anna); set.add(john);
 
         System.out.println("List:");
         for (int i = 0; i < list.size(); i++) {
