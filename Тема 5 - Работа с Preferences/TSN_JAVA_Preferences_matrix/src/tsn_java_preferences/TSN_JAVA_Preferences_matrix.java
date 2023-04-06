@@ -5,7 +5,7 @@ import java.util.prefs.Preferences;
 public class TSN_JAVA_Preferences_matrix {
 
     public static void main(String[] args) {
-        Preferences node = Preferences.userRoot().node("tsn_sp_lab3");
+        Preferences node = Preferences.userRoot().node("tsn_sp_lab5");
 
         final int R = 5; // Количество строк
         final int C = 6; // Количество столбцов
@@ -16,18 +16,19 @@ public class TSN_JAVA_Preferences_matrix {
         System.out.println("Laboratory work");
         System.out.println("Task: MAX <> MIN");
 
-        // Заполняем массив случайными числами
+        // Заполняем (создаем) массив в реестре случайными числами
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
-                k = (int) Math.round(Math.random() * 101);
-                m[i][j] = k;
+                k = (int) Math.round(-10 + Math.random() * 20);
+                node.putInt("K" + i + "," + j, k);
             }
         }
 
-        // Вывод на экран изначального массива
+        // Чтение массива из реестра и вывод его на экран
         System.out.println("Matrix:");
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
+                m[i][j] = node.getInt("K" + i + "," + j, 0);
                 System.out.print(String.valueOf(m[i][j]) + " ");
 
             }
@@ -55,18 +56,18 @@ public class TSN_JAVA_Preferences_matrix {
         m[maxi][maxj] = m[mini][minj];
         m[mini][minj] = k;
 
-        // Заносим данные массива в реестр
+        // Заносим данные измененного массива в реестр
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
-                node.putInt("K" + i + "," + j, m[i][j]);
+                node.putInt("Y" + i + "," + j, m[i][j]);
             }
         }
 
-        // Считываем данные массива из реестра и выводим их на экран
+        // Считываем данные измененного массива из реестра и выводим их на экран
         System.out.println("New matrix:");
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
-                System.out.print(node.getInt("K" + i + "," + j, 0) + " ");
+                System.out.print(node.getInt("Y" + i + "," + j, 0) + " ");
             }
             System.out.println("");
         }
