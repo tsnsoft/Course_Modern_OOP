@@ -1,4 +1,4 @@
 # Course_Modern_OOP
-Примеры к курсу "Современное ООП", 2022
+Примеры к курсу "Современное ООП", 2025
 
-Copyright (c) 2022 Talipov S.N.
+Copyright (c) 2025 Talipov S.N.
